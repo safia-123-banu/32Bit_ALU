@@ -1,28 +1,28 @@
-# EXP3: 32Bit_ALU Simulation
+## EXP3: 32Bit_ALU Simulation
 
-# Aim: 
+### Aim: 
 
 Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
 
 To Verify the Functionality using Test Bench.
 
-# Tool Required:
+### Tool Required:
 
 Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
-## Design Information and Bock Diagram:
+### Design Information and Bock Diagram:
 
 The ALU will take in two 32-bit values, and control line. An Arithmetic unit does the following task like addition subtraction, multiplication and logical operations. As the input is given in 32 bit we get 32 bit output. The arithmetic will show only one output at a time so a selector is necessary to select one of the operator.
 
 ![image](https://github.com/user-attachments/assets/e574788c-253f-46da-8468-298fe2844f7a)
 
-### Fig 1 : Block Diagram of 32 Bit ALU 
+#### Fig 1 : Block Diagram of 32 Bit ALU 
 
-## Creating a Work space :
+### Creating a Work space :
 
 Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp3 or alu_32bit for the Design and open a terminal from the Sub-Directory.
 
-## Creating Source Codes 
+### Creating Source Codes 
 
 In the Terminal, type gedit <filename>.v (ex: gedit alu_32bit.v). 
 
@@ -30,25 +30,24 @@ A Blank Document opens up into which the following source code can be typed down
 
 (Note : File name should be with HDL Extension)
 
-## a)To Verify the Functionality using Test Bench
-
-## Source Code – Using Case Statement :
+### a)To Verify the Functionality using Test Bench
+### Source Code – Using Case Statement :
 
 (Include program here)
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
-## Creating Test bench:
+### Creating Test bench:
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
-## Test Bench :
+### Test Bench :
 
 (Include test bench program here)
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
-## Functional Simulation: 
+### Functional Simulation: 
 
 Invoke the cadence environment by type the below commands 
 
@@ -107,7 +106,7 @@ To perform the function simulation, the following three steps are involved Compi
 ![Screenshot 2024-11-08 074427](https://github.com/user-attachments/assets/99c9e2ff-fda0-4588-b28d-df5f45745225)
 
 
-## Step 1: Compilation:
+### Step 1: Compilation:
 
 – Process to check the correct Verilog language syntax and usage 
 
@@ -115,7 +114,7 @@ Inputs: Supplied are Verilog design and test bench codes
 
 Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
 
-## 	Steps for compilation: 
+### 	Steps for compilation: 
 
 1. Create work/library directory (most of the latest simulation tools creates automatically)
    
@@ -140,7 +139,7 @@ The cds.lib file is an ASCII text file. It defines which libraries are accessibl
 
 directory paths. For this Design, you will define a library called “worklib”
 
-#3 Step 2: Elaboration:– 
+## 3 Step 2: Elaboration:– 
 
 To check the port connections in hierarchical design
 
@@ -148,7 +147,7 @@ Inputs: Top level design / test bench Verilog codes
 
 Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
 
-## 	Steps for elaboration 
+### Steps for elaboration 
 
 – Run the elaboration command with elaborate options 
 
@@ -167,7 +166,7 @@ After elaboration the file will come under snapshot. Select the test bench and s
 ![Screenshot 2024-11-08 080146](https://github.com/user-attachments/assets/551bc4eb-10e3-4ed6-a568-b93ed0be2a9c)
 
 
-## Step 3: Simulation: 
+### Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
