@@ -1,4 +1,4 @@
-# 32Bit_ALU Simulation
+# EXP3: 32Bit_ALU Simulation
 
 # Aim: 
 
