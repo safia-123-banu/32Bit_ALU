@@ -116,7 +116,8 @@ endmodule
 &emsp;&emsp;After this you can see the window like below 
 <br>
 
-![Picture1](https://github.com/user-attachments/assets/685a95cf-0843-4bf9-841f-f2d21b737da1)
+![Screenshot 2024-11-08 075331](https://github.com/user-attachments/assets/86f9b1dd-05bc-43e2-9fc4-d95373113264)
+
 
 <br>
 
@@ -136,7 +137,8 @@ endmodule
 
 <br>
 
-![Picture2](https://github.com/user-attachments/assets/0f120a86-c3a1-440c-a2b0-74ecf93c4519)
+![Screenshot 2024-11-08 074146](https://github.com/user-attachments/assets/a2f180ad-2df0-48f8-804f-3d441450ae75)
+
 
 <br>
 
@@ -150,7 +152,8 @@ endmodule
 
 <br>
 
-![10_6_2024 2_48_15 PM](https://github.com/user-attachments/assets/7f774714-7d5d-40b8-97c3-0c39573770b4)
+![Screenshot 2024-11-08 074253](https://github.com/user-attachments/assets/2c06827f-1926-4327-9e14-6a960e28c8cd)
+
 
 <br>
 
@@ -167,8 +170,8 @@ endmodule
 &emsp;&emsp;A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
 <br>
+![Screenshot 2024-11-08 074253](https://github.com/user-attachments/assets/0713d827-0994-458a-965b-9e983e149f0e)
 
-![Screenshot 2024-10-05 085242](https://github.com/user-attachments/assets/99961b87-6afb-4942-9bcf-4d8808cf056c)
 
 <br>
 
